@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROHAN ADEPU Portfolio page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <!-- Add the FontAwesome library link here if not already included -->
 </head>
-<header>                  
+<header> 
+        <ul>
+            <p><button onclick="exit()">Exit</button></p>                
         <h1>Welcome to ROHAN ADEPU Portfolio page!</h1>
         <script src="script.js"></script>
     </header>
@@ -58,9 +61,20 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
+                <style>
+                    .col-sm-6 {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+                
+                    h4 {
+                        margin-bottom: 10px;
+                    }
+                </style>
                 <div class="col-sm-6 col-md-4">
                     <h4>About Me:</h4>
-                    <p>I am committed to continuous learning, staying updated with emerging technologies, and adapting to the ever-evolving field of computer science.
+                    <p>I am committed to continuous learning, staying<br>updated with emerging technologies, and adapting to the ever-evolving field of computer science.
                        My goal is to leverage my skills and knowledge to make meaningful contributions to projects and organizations.</p>
                 </div>
                 <div class="col-sm-6 col-md-4">
@@ -82,7 +96,7 @@
                 </div>
             </div>
             <div class="text-center">
-              <center><p>© 2023 Rohan Adepu. All Rights Reserved.</p></center>
+              <p>© 2023 Rohan Adepu. All Rights Reserved.</p>
             </div>
         </div>
     </footer>

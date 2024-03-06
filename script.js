@@ -1,6 +1,4 @@
-// Example JavaScript code
-document.getElementById('my-button').addEventListener('click', function() {
+function exit() {
     alert('Exiting portfolio page!');
-});
-
-// You can add more JavaScript functionality as needed
+    alert('Thank you for visiting!');
+}
